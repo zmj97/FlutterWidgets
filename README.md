@@ -4,7 +4,7 @@
 
 ## 截图
 
-![截图0](/Users/zmj/test-projects/_flutter_learn/flutter_widgets/screenshots/screenshot00.png)
+![截图0](./screenshots/screenshot00.png)
 
 ## 进度
 
