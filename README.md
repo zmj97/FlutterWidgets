@@ -1,0 +1,165 @@
+# flutter_widgets
+
+学习Flutter各种Widgets的项目，包含各种样例demo
+
+## 截图
+
+![截图0](/Users/zmj/test-projects/_flutter_learn/flutter_widgets/screenshots/screenshot00.png)
+
+## 进度
+
+- [x] AbsorbPointer
+- [x] AlertDialog
+- [x] Align
+- [x] AnimatedBuilder
+- [x] AnimatedContainer
+- [x] AnimatedCrossFade
+- [x] AnimatedDefaultTextStyle
+- [x] AnimatedListState
+- [ ] AnimatedModalBarrier
+- [ ] AnimatedOpacity
+- [ ] AnimatedPhysicalModel
+- [ ] AnimatedPositioned
+- [ ] AnimatedSize
+- [ ] AnimatedWidget
+- [ ] AnimatedWidgetBaseState
+- [ ] Appbar
+- [ ] AspectRatio
+- [ ] AssetBundle
+- [ ] BackdropFilter
+- [ ] Baseline
+- [ ] BottomNavigationBar
+- [ ] BottomSheet
+- [ ] ButtonBar
+- [ ] Card
+- [ ] Center
+- [ ] Checkbox
+- [ ] Chip
+- [ ] CircularProgressIndicator
+- [ ] ClipOval
+- [ ] ClipPath
+- [ ] ClipRect
+- [ ] Column
+- [ ] ConstrainedBox
+- [ ] Container
+- [ ] CupertinoActionSheet
+- [ ] CupertinoActivityIndicator
+- [ ] CupertinoAlertDialog
+- [ ] CupertinoButton
+- [ ] CupertinoDatePicker
+- [ ] CupertinoDialog
+- [ ] CupertinoDialogAction
+- [ ] CupertinoFullscreenDialogTransition
+- [ ] CupertinoNavigationBar
+- [ ] CupertinoPageScaffold
+- [ ] CupertinoPageTransition
+- [ ] CupertinoPicker
+- [ ] CupertinoPopupSurface
+- [ ] CupertinoScrollbar
+- [ ] CupertinoSegmentedControl
+- [ ] CupertinoSlider
+- [ ] CupertinoSwitch
+- [ ] CupertinoTabBar
+- [ ] CupertinoTabScaffold
+- [ ] CupertinoTabView
+- [ ] CupertinoTextField
+- [ ] CupertinoTimerPicker
+- [ ] CustomMultiChildLayout
+- [ ] CustomPaint
+- [ ] CustomScrollView
+- [ ] CustomSingleChildLayout
+- [ ] DataTable
+- [ ] Date & Time Pickers
+- [ ] DecoratedBox
+- [ ] DecoratedBoxTransition
+- [ ] DefaultTextStyle
+- [ ] Dismissible
+- [ ] Divider
+- [ ] DragTarget
+- [ ] Draggable
+- [ ] Drawer
+- [ ] DropdownButton
+- [ ] ExcludeSemantics
+- [ ] Expanded
+- [ ] ExpansionPanel
+- [ ] FadeTransition
+- [ ] FittedBox
+- [ ] FlatButton
+- [ ] FloatingActionButton
+- [ ] Flow
+- [ ] FlutterLogo
+- [ ] Form
+- [ ] FormField
+- [ ] FractionalTranslation
+- [ ] FractionallySizedBox
+- [ ] FutureBuilder
+- [ ] GestureDetector
+- [ ] GridView
+- [ ] Hero
+- [ ] Icon
+- [ ] IconButton
+- [ ] IgnorePointer
+- [ ] Image
+- [ ] IndexedStack
+- [ ] IntrinsicHeight
+- [ ] IntrinsicWidth
+- [ ] LayoutBuilder
+- [ ] LimitedBox
+- [ ] LinearProgressIndicator
+- [ ] ListBody
+- [ ] ListTile
+- [ ] ListView
+- [ ] LongPressDraggable
+- [ ] MaterialApp
+- [ ] MediaQuery
+- [ ] MergeSemantics
+- [ ] Navigator
+- [ ] NestedScrollView
+- [ ] NotificationListener
+- [ ] Offstage
+- [ ] Opacity
+- [ ] OverflowBox
+- [ ] Padding
+- [ ] PageView
+- [ ] Placeholder
+- [ ] PopupMenuButton
+- [ ] PositionedTransition
+- [ ] Radio
+- [ ] RaisedButton
+- [ ] RawImage
+- [ ] RawKeyboardListener
+- [ ] RefreshIndicator
+- [ ] RichText
+- [ ] RotatedBox
+- [ ] RotationTransition
+- [ ] Row
+- [ ] Scaffold
+- [ ] ScaleTransition
+- [ ] ScrollConfiguration
+- [ ] Scrollable
+- [ ] Scrollbar
+- [ ] Semantics
+- [ ] SimpleDialog
+- [ ] SingleChildScrollView
+- [ ] SizeTransition
+- [ ] SizedBox
+- [ ] SizedOverflowBox
+- [ ] SlideTransition
+- [x] Slider
+- [ ] SliverAppBar
+- [ ] SnackBar
+- [ ] Stack
+- [ ] Stepper
+- [ ] StreamBuilder
+- [ ] Switch
+- [ ] TabBar
+- [ ] TabBarView
+- [ ] Table
+- [ ] Text
+- [ ] TextField
+- [ ] Theme
+- [ ] Tooltip
+- [ ] Transform
+- [ ] WidgetsApp
+- [ ] Wrap
+
