@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/widgets/color_block.dart';
 import 'package:flutter_widgets/widgets/screen_container.dart';
 
 class AnimatedModalBarrierScreen extends StatefulWidget {
@@ -11,7 +12,7 @@ class AnimatedModalBarrierScreen extends StatefulWidget {
 class _AnimatedModalBarrierScreenState extends State<AnimatedModalBarrierScreen> with SingleTickerProviderStateMixin {
 
   AnimationController _animationController;
-  Tween<Color> _colorTween = new Tween<Color>(begin: Colors.white, end: Colors.orange);
+  Tween<Color> _colorTween;
   Animation<Color> _colorAnimation;
   bool _dismissible = true;
 
@@ -27,6 +28,7 @@ class _AnimatedModalBarrierScreenState extends State<AnimatedModalBarrierScreen>
 
   @override
   Widget build(BuildContext context) {
+    _colorTween = Tween<Color>(begin: Colors.white, end: Theme.of(context).primaryColor);
     return ScreenContainer(
       title: 'AnimatedModalBarrier',
       body: Column(children: <Widget>[
@@ -38,10 +40,9 @@ class _AnimatedModalBarrierScreenState extends State<AnimatedModalBarrierScreen>
             });
           },
         ),
-        Container(
-          width: 300,
-          height: 300,
-          decoration: BoxDecoration(border: Border.all(color: Colors.orange, width: 5)),
+        ColorBlock(
+          size: 300,
+          hollow: true,
           child: AnimatedModalBarrier(
             color: _colorAnimation,
             dismissible: _dismissible,

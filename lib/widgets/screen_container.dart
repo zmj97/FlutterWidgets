@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/widgets/code_block.dart';
 import 'package:recase/recase.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
@@ -8,23 +9,22 @@ class ScreenContainer extends StatelessWidget {
   final bool isHome;
   const ScreenContainer({Key key, this.title, this.body, this.isHome = false}) : super(key: key);
 
-  Future<Widget> _getCodeStrWidget() async {
+  Future<Widget> _getCodeWidget() async {
     ReCase rc = new ReCase(title);
     String filePath = 'lib/screens/${rc.snakeCase}.dart';
     String codeStr = await rootBundle.loadString(filePath);
-    return Text(codeStr, style: TextStyle(color: Colors.white));
+    return CodeBlock(code: codeStr,);
   }
 
   _getBodyShow(BuildContext context) {
     if (isHome == true) {
       return body;
     }
-    FutureBuilder<Widget> codeStrWidget = FutureBuilder<Widget>(
-      future: _getCodeStrWidget(),
+    FutureBuilder<Widget> codeWidget = FutureBuilder<Widget>(
+      future: _getCodeWidget(),
       builder: (BuildContext context, AsyncSnapshot<Widget> snapshot){
         if(snapshot.hasData)
           return snapshot.data;
-
         return Container(child: CircularProgressIndicator());
       }
     );
@@ -32,18 +32,7 @@ class ScreenContainer extends StatelessWidget {
       children: <Widget>[
         body,
         Expanded(
-          child: Container(
-            child: SingleChildScrollView(
-              scrollDirection: Axis.vertical,
-              child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: codeStrWidget,
-              ),
-            ),
-            decoration: BoxDecoration(color: Colors.black87, borderRadius: BorderRadius.circular(12)),
-            padding: EdgeInsets.all(12),
-            margin: EdgeInsets.only(top: 12, bottom: 12),
-          ),
+          child: codeWidget,
         )
       ],
     );

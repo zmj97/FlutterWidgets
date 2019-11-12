@@ -19,22 +19,18 @@ class _AbsorbPointerScreenState extends State<AbsorbPointerScreen> {
         Text('_isAbsorb: '),
         Switch(
           value: _isAbsorb,
-          onChanged: (bool newValue) {
-            setState(() {
-              _isAbsorb = newValue;
-            });
-          },
+          onChanged: (bool newValue) => setState(() {
+            _isAbsorb = newValue;
+          }),
         ),
         AbsorbPointer(
           absorbing: _isAbsorb,
           child: FlatButton(
             child: Text('点击增加count'),
             textTheme: ButtonTextTheme.primary,
-            onPressed: () {
-              setState(() {
-                _clickCount++;
-              });
-            },
+            onPressed: () => setState(() {
+              _clickCount++;
+            }),
           ),
         ),
         Text('count: $_clickCount'),

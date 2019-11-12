@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/widgets/color_block.dart';
 import 'package:flutter_widgets/widgets/screen_container.dart';
 
 class AnimatedOpacityScreen extends StatefulWidget {
@@ -21,11 +22,7 @@ class _AnimatedOpacityScreenState extends State<AnimatedOpacityScreen> {
         AnimatedOpacity(
           opacity: _opacityLevel,
           duration: const Duration(milliseconds: 800),
-          child: Container(
-            width: 200,
-            height: 200,
-            decoration: BoxDecoration(color: Colors.orange),
-          ),
+          child: ColorBlock(),
         ),
         FlatButton(
           child: Text('点此修改透明度'),

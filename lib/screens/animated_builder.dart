@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/widgets/color_block.dart';
 import 'dart:math' as math;
 
 import 'package:flutter_widgets/widgets/screen_container.dart';
@@ -35,7 +36,7 @@ class _AnimatedBuilderScreenState extends State<AnimatedBuilderScreen> with Sing
       title: 'AnimatedBuilder',
       body: AnimatedBuilder(
         animation: _controller,
-        child: Container(width: 200.0, height: 200.0, color: Colors.green),
+        child: ColorBlock(),
         builder: (BuildContext context, Widget child) {
           return Transform.rotate(
             // 2pi = 360°

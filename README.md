@@ -16,40 +16,40 @@
 - [x] AnimatedCrossFade
 - [x] AnimatedDefaultTextStyle
 - [x] AnimatedListState
-- [ ] AnimatedModalBarrier
-- [ ] AnimatedOpacity
-- [ ] AnimatedPhysicalModel
-- [ ] AnimatedPositioned
-- [ ] AnimatedSize
+- [x] AnimatedModalBarrier (不太懂)
+- [x] AnimatedOpacity
+- [x] AnimatedPhysicalModel
+- [x] AnimatedPositioned
+- [x] AnimatedSize
 - [ ] AnimatedWidget
 - [ ] AnimatedWidgetBaseState
-- [ ] Appbar
-- [ ] AspectRatio
-- [ ] AssetBundle
-- [ ] BackdropFilter
-- [ ] Baseline
-- [ ] BottomNavigationBar
-- [ ] BottomSheet
-- [ ] ButtonBar
-- [ ] Card
-- [ ] Center
-- [ ] Checkbox
-- [ ] Chip
-- [ ] CircularProgressIndicator
-- [ ] ClipOval
-- [ ] ClipPath
-- [ ] ClipRect
-- [ ] Column
-- [ ] ConstrainedBox
-- [ ] Container
-- [ ] CupertinoActionSheet
-- [ ] CupertinoActivityIndicator
-- [ ] CupertinoAlertDialog
-- [ ] CupertinoButton
-- [ ] CupertinoDatePicker
-- [ ] CupertinoDialog
-- [ ] CupertinoDialogAction
-- [ ] CupertinoFullscreenDialogTransition
+- [x] Appbar
+- [x] AspectRatio
+- [x] AssetBundle
+- [x] BackdropFilter
+- [x] Baseline
+- [x] BottomNavigationBar
+- [x] BottomSheet
+- [x] ButtonBar
+- [x] Card
+- [x] Center
+- [x] Checkbox
+- [x] Chip
+- [x] CircularProgressIndicator
+- [x] ClipOval
+- [x] ClipPath
+- [x] ClipRect
+- [x] Column
+- [x] ConstrainedBox
+- [x] Container
+- [x] CupertinoActionSheet
+- [x] CupertinoActivityIndicator
+- [x] CupertinoAlertDialog
+- [x] CupertinoButton
+- [x] CupertinoDatePicker
+- [x] CupertinoDialog
+- [x] CupertinoDialogAction
+- [x] CupertinoFullscreenDialogTransition
 - [ ] CupertinoNavigationBar
 - [ ] CupertinoPageScaffold
 - [ ] CupertinoPageTransition
