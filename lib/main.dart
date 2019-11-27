@@ -37,6 +37,36 @@ import 'package:flutter_widgets/screens/cupertino_alert_dialog.dart';
 import 'package:flutter_widgets/screens/cupertino_date_picker.dart';
 import 'package:flutter_widgets/screens/cupertino_dialog.dart';
 import 'package:flutter_widgets/screens/cupertino_fullscreen_dialog_transition.dart';
+import 'package:flutter_widgets/screens/cupertino_navigation_bar.dart';
+import 'package:flutter_widgets/screens/cupertino_picker.dart';
+import 'package:flutter_widgets/screens/cupertino_popup_surface.dart';
+import 'package:flutter_widgets/screens/cupertino_scrollbar.dart';
+import 'package:flutter_widgets/screens/cupertino_segmented_control.dart';
+import 'package:flutter_widgets/screens/cupertino_slider.dart';
+import 'package:flutter_widgets/screens/cupertino_switch.dart';
+import 'package:flutter_widgets/screens/cupertino_tab_scaffold.dart';
+import 'package:flutter_widgets/screens/cupertino_text_field.dart';
+import 'package:flutter_widgets/screens/cupertino_timer_picker.dart';
+import 'package:flutter_widgets/screens/custom_multi_child_layout.dart';
+import 'package:flutter_widgets/screens/custom_paint.dart';
+import 'package:flutter_widgets/screens/custom_scroll_view.dart';
+import 'package:flutter_widgets/screens/custom_single_child_layout.dart';
+import 'package:flutter_widgets/screens/data_table.dart';
+import 'package:flutter_widgets/screens/date_and_time_picker.dart';
+import 'package:flutter_widgets/screens/decorated_box.dart';
+import 'package:flutter_widgets/screens/decorated_box_transition.dart';
+import 'package:flutter_widgets/screens/default_text_style.dart';
+import 'package:flutter_widgets/screens/dismissible.dart';
+import 'package:flutter_widgets/screens/divider.dart';
+import 'package:flutter_widgets/screens/drag_target.dart';
+import 'package:flutter_widgets/screens/draggable.dart';
+import 'package:flutter_widgets/screens/drawer.dart';
+import 'package:flutter_widgets/screens/dropdown_button.dart';
+import 'package:flutter_widgets/screens/expanded.dart';
+import 'package:flutter_widgets/screens/expansion_panel.dart';
+import 'package:flutter_widgets/screens/fade_transition.dart';
+import 'package:flutter_widgets/screens/fitted_box.dart';
+import 'package:flutter_widgets/screens/floating_action_button.dart';
 
 void main() => runApp(FlutterWidgetsApp());
 
@@ -103,8 +133,47 @@ class FlutterWidgetsApp extends StatelessWidget {
         '/cupertino_dialog': (context) => CupertinoDialogScreen(),
         '/cupertino_dialog_action': (context) => CupertinoAlertDialogScreen(),
         '/cupertino_fullscreen_dialog_transition': (context) => CupertinoFullscreenDialogTransitionScreen(),
+        '/cupertino_navigation_bar': (context) => CupertinoNavigationBarScreen(),
+        '/cupertino_page_scaffold': (context) => CupertinoNavigationBarScreen(),
+
+        '/cupertino_picker': (context) => CupertinoPickerScreen(),
+        '/cupertino_popup_surface': (context) => CupertinoPopupSurfaceScreen(),
+        '/cupertino_scrollbar': (context) => CupertinoScrollbarScreen(),
+        '/cupertino_segmented_control': (context) => CupertinoSegmentedControlScreen(),
+        '/cupertino_slider': (context) => CupertinoSliderScreen(),
+        '/cupertino_switch': (context) => CupertinoSwitchScreen(),
+        '/cupertino_tab_bar': (context) => CupertinoTabScaffoldScreen(),
+        '/cupertino_tab_scaffold': (context) => CupertinoTabScaffoldScreen(),
+        '/cupertino_tab_view': (context) => CupertinoTabScaffoldScreen(),
+        '/cupertino_text_field': (context) => CupertinoTextFieldScreen(),
+        '/cupertino_time_picker': (context) => CupertinoTimerPickerScreen(),
+        '/custom_multi_child_layout': (context) => CustomMultiChildLayoutScreen(),
+        '/custom_paint': (context) => CustomPaintScreen(),
+        '/custom_scroll_view': (context) => CustomScrollViewScreen(),
+        '/custom_single_child_layout': (context) => CustomSingleChildLayoutScreen(),
+        '/data_table': (context) => DataTableScreen(),
+        '/date_and_time_picker': (context) => DateAndTimePickerScreen(),
+        '/decorated_box': (context) => DecoratedBoxScreen(),
+        '/decorated_box_transition': (context) => DecoratedBoxTransitionScreen(),
+        '/default_text_style': (context) => DefaultTextStyleScreen(),
+        '/dismissible': (context) => DismissibleScreen(),
+        '/divider': (context) => DividerScreen(),
+        '/drag_target': (context) => DragTargetScreen(),
+        '/draggable': (context) => DraggableScreen(),
+        '/drawer': (context) => DrawerScreen(),
+        '/dropdown_button': (context) => DropdownButtonScreen(),
+        '/expanded': (context) => ExpandedScreen(),
+        '/expansion_panel': (context) => ExpansionPanelScreen(),
+        '/fade_transition': (context) => FadeTransitionScreen(),
+        '/fitted_box': (context) => FittedBoxScreen(),
+        '/flat_button': (context) => CardScreen(),
+        '/floating_action_button': (context) => FloatingActionButtonScreen(),
+        '/flutter_logo': (context) => AppBarScreen(),
 
         '/slider': (context) => AlignScreen(),
+
+        '/snake_bar': (context) => DismissibleScreen(),
+
       },
     );
   }

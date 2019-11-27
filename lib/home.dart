@@ -189,12 +189,184 @@ class Home extends StatelessWidget {
       'subtitle': 'iOS风格的全屏动画弹窗',
       'leading': 'https://flutter.dev/images/widget-catalog/cupertino-fullscreen-dialog-transition.png'
     },
+    {
+      'title': 'CupertinoNavigationBar',
+      'subtitle': 'iOS风格的顶部导航栏',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-nav-bar.png'
+    },
+    {
+      'title': 'CupertinoPageScaffold',
+      'subtitle': 'iOS风格的页面布局',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-page-scaffold.png'
+    },
+
+    {
+      'title': 'CupertinoPicker',
+      'subtitle': 'iOS风格的选择器',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-picker.png'
+    },
+    {
+      'title': 'CupertinoPopupSurface',
+      'subtitle': 'iOS风格的popup容器',
+    },
+    {
+      'title': 'CupertinoScrollbar',
+      'subtitle': 'iOS风格的滚动条',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-scrollbar.png'
+    },
+    {
+      'title': 'CupertinoSegmentedControl',
+      'subtitle': 'iOS风格的分段控制器',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-segmented-control.png'
+    },
+    {
+      'title': 'CupertinoSlider',
+      'subtitle': 'iOS风格的滑动条',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-slider.png'
+    },
+    {
+      'title': 'CupertinoSwitch',
+      'subtitle': 'iOS风格的开关',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-switch.png'
+    },
+    {
+      'title': 'CupertinoTabBar',
+      'subtitle': 'iOS风格的tab栏',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-tab-bar.png'
+    },
+    {
+      'title': 'CupertinoTabScaffold',
+      'subtitle': 'iOS风格的tab布局',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-tab-scaffold.png'
+    },
+    {
+      'title': 'CupertinoTabView',
+      'subtitle': 'iOS风格的tab视图',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-tab-view.png'
+    },
+    {
+      'title': 'CupertinoTextField',
+      'subtitle': 'iOS风格的输入框',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-textfield.png'
+    },
+    {
+      'title': 'CupertinoTimePicker',
+      'subtitle': 'iOS风格的时间选择器',
+      'leading': 'https://flutter.dev/images/widget-catalog/cupertino-timer-picker.png'
+    },
+    {
+      'title': 'CustomMultiChildLayout',
+      'subtitle': '使用delegate(委托)对多个子节点进行定位和控制大小的容器',
+    },
+    {
+      'title': 'CustomPaint',
+      'subtitle': 'canvas画图',
+    },
+    {
+      'title': 'CustomScrollView',
+      'subtitle': '使用slivers创建的可滚动视图',
+    },
+    {
+      'title': 'CustomSingleChildLayout',
+      'subtitle': '使用delegate(委托)对单个子节点进行定位和控制大小的容器',
+    },
+    {
+      'title': 'DataTable',
+      'subtitle': '数据表格',
+      'leading': 'https://flutter.dev/images/widget-catalog/material-data-table.png'
+    },
+    {
+      'title': 'DateAndTimePicker',
+      'subtitle': '时间选择器',
+      'leading': 'https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VY2h4WElGdEhPb2c/components_pickers.png'
+    },
+    {
+      'title': 'DecoratedBox',
+      'subtitle': '在子节点渲染之前(之后)绘制decoration',
+    },
+    {
+      'title': 'DecoratedBoxTransition',
+      'subtitle': '在子节点渲染之前(之后)绘制decoration(动画版)',
+    },
+    {
+      'title': 'DefaultTextStyle',
+      'subtitle': '默认字体样式容器',
+    },
+    {
+      'title': 'Dismissible',
+      'subtitle': '滑动进行删除等操作的容器',
+    },
+    {
+      'title': 'Divider',
+      'subtitle': '分割线',
+      'leading': 'https://flutter.dev/images/widget-catalog/material-divider.png'
+    },
+    {
+      'title': 'DragTarget',
+      'subtitle': '拖拽目标',
+    },
+    {
+      'title': 'Draggable',
+      'subtitle': '可拖动容器',
+    },
+    {
+      'title': 'Drawer',
+      'subtitle': '抽屉',
+      'leading': 'https://flutter.dev/images/widget-catalog/material-drawer.png'
+    },
+    {
+      'title': 'DropdownButton',
+      'subtitle': '下拉按钮',
+      'leading': 'https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B7WCemMG6e0VakJ6a0F2MFJaaDQ/components_menus.png'
+    },
+    {
+      'title': 'Expanded',
+      'subtitle': '拉伸填满容器',
+    },
+    {
+      'title': 'ExpansionPanel',
+      'subtitle': '可下拉面板',
+      'leading': 'https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VOXF3eEJ3azZMSjg/components_expansion_panels.png'
+    },
+    {
+      'title': 'FadeTransition',
+      'subtitle': '透明度动画',
+    },
+    {
+      'title': 'FittedBox',
+      'subtitle': '大小适应容器',
+    },
+    {
+      'title': 'FlatButton',
+      'subtitle': '平滑按钮(查看Card样例中的按钮)',
+      'leading': 'https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VNDg3V3ZjU2hsNGc/components_buttons_usage3.png'
+    },
+    {
+      'title': 'FloatingActionButton',
+      'subtitle': '浮动按钮',
+      'leading': 'https://flutter.dev/images/widget-catalog/material-floating-action-button.png'
+    },
+
+
+
+    {
+      'title': 'FlutterLogo',
+      'subtitle': 'Flutter 图标(查看AppBar样例中的FlutterLogo)'
+    },
+
 
 
     {
       'title': 'Slider',
       'subtitle': '滑动条(与Align示例相同)',
       'leading': 'https://flutter.dev/images/widget-catalog/material-slider.png'
+    },
+
+
+    {
+      'title': 'SnakeBar',
+      'subtitle': '底部通知(查看Dismissible中的SnakeBar使用)',
+      'leading': 'https://flutter.dev/images/widget-catalog/material-snack-bar.png'
     },
   ];
 

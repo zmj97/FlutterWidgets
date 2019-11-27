@@ -30,7 +30,7 @@ class _AnimatedListScreenState extends State<AnimatedListScreen> {
             final Widget result = _getListItem(idx, animation);
             _list.removeAt(idx);
             return result;
-          });
+          }, duration: const Duration(milliseconds: 200));
         },
         child: Card(child: ListTile(
           title: Text(_list[idx]),
@@ -53,7 +53,7 @@ class _AnimatedListScreenState extends State<AnimatedListScreen> {
             onSubmitted: (text) {
               if (text == '') return;
               _list.insert(0, text);
-              _listKey.currentState.insertItem(0);
+              _listKey.currentState.insertItem(0, duration: const Duration(milliseconds: 200));
               // 添加后清空输入框
               _inputController.clear();
             },
